@@ -1,0 +1,18 @@
+.pagination{
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  background-color: white;
+  .pagination_div{
+    border: 2px solid black;
+    width: 100%;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    .btn_pagination{
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+}
